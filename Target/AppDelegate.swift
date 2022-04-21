@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Target
+//  BullsEye
 //
-//  Created by Anna Polevina on 21.04.2022.
+//  Created by Anna Polevina on 21.01.2022.
 //
 
 import UIKit

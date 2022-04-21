@@ -13,6 +13,7 @@
 		5C0A150B281193E50004ED70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0A1509281193E50004ED70 /* Main.storyboard */; };
 		5C0A150D281193EA0004ED70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0A150C281193EA0004ED70 /* Assets.xcassets */; };
 		5C0A1510281193EA0004ED70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0A150E281193EA0004ED70 /* LaunchScreen.storyboard */; };
+		5C0A1518281194D50004ED70 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 5C0A1517281194D50004ED70 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5C0A150C281193EA0004ED70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C0A150F281193EA0004ED70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C0A1511281193EA0004ED70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C0A1517281194D50004ED70 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				5C0A1505281193E50004ED70 /* SceneDelegate.swift */,
 				5C0A1507281193E50004ED70 /* ViewController.swift */,
 				5C0A1509281193E50004ED70 /* Main.storyboard */,
+				5C0A1517281194D50004ED70 /* BullsEye.html */,
 				5C0A150C281193EA0004ED70 /* Assets.xcassets */,
 				5C0A150E281193EA0004ED70 /* LaunchScreen.storyboard */,
 				5C0A1511281193EA0004ED70 /* Info.plist */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C0A1510281193EA0004ED70 /* LaunchScreen.storyboard in Resources */,
+				5C0A1518281194D50004ED70 /* BullsEye.html in Resources */,
 				5C0A150D281193EA0004ED70 /* Assets.xcassets in Resources */,
 				5C0A150B281193E50004ED70 /* Main.storyboard in Resources */,
 			);
@@ -295,8 +299,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,8 +329,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
